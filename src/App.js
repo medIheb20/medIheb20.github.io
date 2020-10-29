@@ -156,9 +156,9 @@ function App() {
                                 About Me
                             </h3>
                             <div className='text'>
-                                I am not the best programmer, but I am a programmer with big habits<pre />
-                                I am front end developer and I love what I do and every day enjoy the learning process and I work for a lot of technologies like ReactJs and a lot of technologies of the front end <pre /> 
-                                I am a Business Computing student and with my school, I try to learn new things about programming every day without stopping 
+                                I 'm not the best programmer, but I am a programmer with big habits<pre />
+                                I 'm front end developer and I love what I do and every day enjoy the learning process and I work for a lot of technologies like ReactJs and a lot of technologies of the front end <pre /> 
+                                I 'm a Business Computing student and with my school, I try to learn new things about programming every day without stopping 
                             </div>
                             <div className='button-github'>
                                 <a href={myResume} download >
