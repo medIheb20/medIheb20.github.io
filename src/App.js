@@ -72,7 +72,7 @@ const mySkills = [
 const myProjects = [
     {
         id : 1,
-        image : project1,
+        image : './assets/kprm.png',
         title : 'Kprm Company',
         text : 'its a website informative for a company in south africa, its the first real project for me i apply all my knowlodge in html and css and bootstrap in this project ',
         technolgieUsed: 'javascript, html, css',
