@@ -120,11 +120,7 @@ const myPosts = [
 ]
 function App() {
 
-    const [withContact, setWithContact] = useState(false)
     const [withMenu, setWithMenu] = useState(false);
-
-    
-
 
     
 
@@ -135,9 +131,9 @@ function App() {
                 withMenu={withMenu}
                 setWithMenu={setWithMenu}
             />
-            <div className='container-all-pages' onClick={() => withMenu == true ? setWithMenu(false) : null} >
+            <div className='container-all-pages' onClick={() => withMenu === true ? setWithMenu(false) : null} >
                 <div className='wrapper-menu-mobile' onClick={() => setWithMenu(true)}>
-                    <img  src={MenuLogo}/>
+                    <img alt='menu'  src={MenuLogo}/>
                 </div>
                 
                 <div className='title-page' >

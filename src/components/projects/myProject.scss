@@ -17,14 +17,9 @@ $breakpoint-mobile: 650px;
         background-repeat: no-repeat;
         background-position: top;
         background-size: cover;
-        transition: 1s;
         cursor: pointer;
         width: 100%;
         height: 200px;
-
-        &:hover{
-            background-position: bottom;
-        }
     }
 
     .text-project{

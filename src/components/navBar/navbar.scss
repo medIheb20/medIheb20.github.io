@@ -56,6 +56,7 @@ $breakpoint-mobile: 650px;
             box-shadow: none;
             border: none;
             outline: none;
+            cursor: pointer;
             &:focus{
                 border: none ; 
             }

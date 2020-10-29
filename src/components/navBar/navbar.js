@@ -6,7 +6,7 @@ import skillLogo from '../../assets/svg/skill.svg'
 import projectLogo from '../../assets/svg/project.svg'
 import { Link } from 'react-scroll'
 
-export const Navbar = ({contactPage, setWithMenu, withMenu}) => {
+export const Navbar = ({setWithMenu, withMenu}) => {
 
     const [withScroll, setWithScroll] = useState(false);
     
@@ -21,18 +21,22 @@ export const Navbar = ({contactPage, setWithMenu, withMenu}) => {
             setWithScroll(true);
        }
     }, [withMenu]);
-    console.log(withScroll);
+
+    const handleClick = () => {
+        setWithMenu(false);
+    }
     return(
         <div className={`wrapper-navbar ${withScroll ? 'with-scroll' : ''} ${withMenu ? 'with-menu' : null}`}>
             <div className='container-navbar'>
                 <Link to='aboutMe' smooth={true} offset={withMenu ? -350 : -150}>
                     <div className='nav-item'>
                         <img 
+                            alt='menu-icon'
                             className='icon-nav'
                             src={`${withScroll ? cvLogo : "https://img.icons8.com/nolan/64/parse-from-clipboard.png"}`}
 
                         />
-                        <span className={`${withScroll ? 'title-scroll' : null } title-item`}>
+                        <span onClick={handleClick} className={`${withScroll ? 'title-scroll' : null } title-item`}>
                             About Me
                         </span>
                     </div>
@@ -42,8 +46,9 @@ export const Navbar = ({contactPage, setWithMenu, withMenu}) => {
                         <img 
                             className='icon-nav'
                             src={`${withScroll ? skillLogo : "https://img.icons8.com/nolan/64/development-skill.png"}`}
+                            alt='link-button'
                         />
-                        <span className={`${withScroll ? 'title-scroll' : null } title-item`}>
+                        <span onClick={handleClick} className={`${withScroll ? 'title-scroll' : null } title-item`}>
                             Skills
                         </span>
                     </div>
@@ -53,14 +58,15 @@ export const Navbar = ({contactPage, setWithMenu, withMenu}) => {
                     <img 
                         className='icon-nav'
                         src={`${withScroll ? projectLogo : "https://img.icons8.com/nolan/64/workstation.png"}`}
+                        alt='link-button'
                     />
-                    <span className={`${withScroll ? 'title-scroll' : null } title-item`}>
+                    <span onClick={handleClick} className={`${withScroll ? 'title-scroll' : null } title-item`}>
                         Projects
                     </span>
                 </div>
                 </Link>
                 <Link to='contact' smooth={true} offset={withMenu ? -350 : -150}>
-                    <button onClick={contactPage} className={`${withScroll ? "button-scroll" : null} button-contact`}>
+                    <button onClick={handleClick} className={`${withScroll ? "button-scroll" : null} button-contact`}>
                         <span  className='contact-link'>
                             Contact
                         </span>

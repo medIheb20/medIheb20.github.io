@@ -33,6 +33,7 @@ body{
     margin-top: 10px;
     margin-right: 10px;
     position: fixed;
+    z-index: 1000;
 
     :first-child{
       width: 50px;
