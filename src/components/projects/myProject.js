@@ -24,7 +24,7 @@ export const MyProject = ({image, title,text, technolgieUsed, projectLink}) => {
                 <span className='tech-used'>
                     {technolgieUsed}
                 </span>
-                <a className='project-link'  href={projectLink}>
+                <a className='project-link' rel='noopener noreferrer' target='_blank'   href={projectLink}>
                     <button
                         className='button-project-link'
                     >

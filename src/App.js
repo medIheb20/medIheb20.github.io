@@ -14,7 +14,7 @@ import  linkedinLogo  from './assets/my-icons-collection/003-linkedin.png'
 import { Link, BrowserRouter as Router } from 'react-router-dom'
 import MenuLogo from './assets/svg/menu.svg'
 import { motion } from 'framer-motion'
-import myResume from './assets/mcv.pdf'
+import myResume from './assets/resume.pdf'
 
 
 
@@ -141,7 +141,7 @@ function App() {
                         HI , I'M MOHAMED IHEB HICHRI .
                     </motion.h1>
                     <motion.h2 initial={true} animate={{ x: -300}} className='surname-page'>
-                        I'M AN FRONT END DEVELOPER AND REACT DEVELOPER .
+                        I'M A FRONT END DEVELOPER AND REACT DEVELOPER .
                     </motion.h2>
                 </div>
                 <div className="information-about-me" id='aboutMe'>
@@ -152,9 +152,9 @@ function App() {
                                 About Me
                             </h3>
                             <div className='text'>
-                                I am not the best programmer, but I am a programmer with big habits<pre />
-                                I am front end developer and I love what I do and every day enjoy the learning process and I work for a lot of technologies like ReactJs and a lot of technologies of the front end <pre /> 
-                                I am a Business Computing student and with my school, I try to learn new things about programming every day without stopping 
+                                I may not be the best developer out there, but I'm always looking for ways to improve myself.<pre />
+                                currently consider myself as a front end developer and i genuinely  love what i do, I'm always trying to learn new thing and discover new technologies  And hey ! I forgot to mention that I'm a Business computing student!  <pre /> 
+                                I can work with different technologies like ReactJs, and others related to frontend development.
                             </div>
                             <div className='button-github'>
                                 <a href={myResume} download >
@@ -211,7 +211,7 @@ function App() {
                                     WANNA CHAT?
                                 </h1>
                                 <span className='text-footer'>
-                                    Although I’m  taking on new projects at the moment, you’re more than welcome to say a big hello via email at <a target='_blank' href='mailto:ihebhichri12@gmail.com' className='link-work'>ihebhichri12@gmail.com</a> or feel free to drop me a line on <a target='_blank'  href='https://www.instagram.com/mediheb20/' className='link-work'>Instagram</a>
+                                    Although I’m  taking on new projects at the moment, you’re more than welcome to say a big hello via email at <a target='_blank' rel='noopener noreferrer' href='mailto:ihebhichri12@gmail.com' className='link-work'>ihebhichri12@gmail.com</a> or feel free to drop me a line on <a target='_blank'  href='https://www.linkedin.com/in/mediheb20/'  rel='noopener noreferrer' className='link-work'>Linkedin</a>
                                 </span>
                             </div>
                             <div className='bottom-div'>
@@ -219,14 +219,14 @@ function App() {
                                     © MedIheb20
                                 </span>
                                 <div className='icons-social-media'>
-                                    <a target='_blank'  href='https://www.facebook.com/medIheb20/' >
-                                        <img src={facebookLogo} />
+                                    <a target='_blank' rel='noopener noreferrer'  href='https://www.facebook.com/medIheb20/' >
+                                        <img alt='my-links' src={facebookLogo} />
                                     </a>
-                                    <a target='_blank' href='https://www.instagram.com/mediheb20/'>
-                                        <img src={instagramLogo} />
+                                    <a target='_blank' rel='noopener noreferrer' href='https://www.instagram.com/mediheb20/'>
+                                        <img alt='my-links' src={instagramLogo} />
                                     </a>
-                                    <a target='_blank' href='https://www.linkedin.com/in/mediheb20/'>
-                                        <img src={linkedinLogo} />
+                                    <a target='_blank' rel='noopener noreferrer' href='https://www.linkedin.com/in/mediheb20/'>
+                                        <img alt='my-links' src={linkedinLogo} />
                                     </a>
                                 </div>
                             </div>

@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap');
 
+$breakpoint-tablet: 1024px;
+$breakpoint-mobile: 650px;
+
 .icon-container{
     display: flex;
     flex-direction: column;
@@ -23,5 +26,39 @@
         font-family: 'Balsamiq Sans', cursive;
         color: #1f1390;
         text-align: center;
+    }
+}
+
+@media (max-width: $breakpoint-tablet) {
+    .icon-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+        .wrapper-icon{
+            width: 150px;
+            height: 150px;
+            margin-bottom: 20px;
+        }
+        .name-skill{
+            font-size: 25px;
+        }
+    }
+}
+
+@media (max-width: $breakpoint-mobile) {
+    .icon-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+        .wrapper-icon{
+            width: 120px;
+            height: 120px;
+            margin-bottom: 15px;
+        }
+        .name-skill{
+            font-size: 20px;
+        }
     }
 }
