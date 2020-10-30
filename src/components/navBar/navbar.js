@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import './navbar.scss';
-import myLogo from '../../assets/my-logo.png';
 import cvLogo from '../../assets/svg/cv.svg'
 import skillLogo from '../../assets/svg/skill.svg'
 import projectLogo from '../../assets/svg/project.svg'

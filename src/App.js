@@ -74,15 +74,15 @@ const myProjects = [
         id : 1,
         image : project1,
         title : 'Kprm Company',
-        text : 'its a website informative for a company in south africa, its the first real project for me i apply all my knowlodge in html and css and bootstrap in this project ',
-        technolgieUsed: 'javascript, html, css',
+        text : "It's a website informative for a company in south africa, it's the first real project for me .  I apply all my knowledge in Html and Css and Bootstrap in this project ",
+        technolgieUsed: 'Javascript, Html, Css',
         projectLink : 'https://kprm.co.za/'
     },
     {
         id : 2,
         image : project2,
         title : 'Eat Easy App',
-        text : 'a Food Delivery app, my first complex front end i did , i use all my what i learned for the single page application and practice for this project i use the firebse for the database and the backend',
+        text : 'a Food Delivery app, my first complex front end i did , I use all  what i learned for the single page application and to practice . For this project i use the firebse for the database and the backend',
         technolgieUsed: 'ReactJs, ReduxJs, Firebase, Styled-components',
         projectLink : 'https://github.com/medIheb20/EatEasy-Delivery-Food'
     },
@@ -90,7 +90,7 @@ const myProjects = [
         id : 3,
         image : project3,
         title : 'Crwen Clothes Shop',
-        text : 'its a project for what i learn from a course from udemy React Developer, its a project totally front end with firebase for the backend',
+        text : "it's a project for what i learn from a course from udemy , It's a project totally built it front end with firebase for the backend",
         technolgieUsed: 'ReactJs, ReduxJs, Firebase, Sass',
         projectLink : 'https://crwn-live.herokuapp.com/'
     }
@@ -152,8 +152,8 @@ function App() {
                                 About Me
                             </h3>
                             <div className='text'>
-                                I may not be the best developer out there, but I'm always looking for ways to improve myself.<pre />
-                                currently consider myself as a front end developer and i genuinely  love what i do, I'm always trying to learn new thing and discover new technologies  And hey ! I forgot to mention that I'm a Business computing student!  <pre /> 
+                                I may not be the perfect developer out there, but I'm always looking for ways to improve myself.<pre />
+                                I 'm a front end developer and I genuinely  love what i do, I'm always trying to learn new thing and discover new technologies  And hey ! I forgot to mention that I'm a Business computing student!  <pre /> 
                                 I can work with different technologies like ReactJs, and others related to frontend development.
                             </div>
                             <div className='button-github'>
