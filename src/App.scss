@@ -236,9 +236,9 @@ body{
     }
     .wrapper-my-content{
         display: inline-flex;
-        width: 85%;
+        width: 100%;
         margin: auto;
-        justify-content: space-between;
+        justify-content: center;
         margin-top: 100px auto;
         gap: 30px;
         flex-wrap: wrap;
@@ -352,7 +352,6 @@ body{
       .content-title{
         line-height: 40px;
         text-align: center;
-        width: 80%;
       }
   }
   .wrapper-footer{

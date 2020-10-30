@@ -10,8 +10,11 @@ $breakpoint-mobile: 650px;
 }
 
 @media (max-width: $breakpoint-mobile) {
-    .container-post{
-        width: 100%;
+    .link-post{
+        width: 85%;
+        .container-post{
+            width: 100%;
+        }
     }
 }
 
