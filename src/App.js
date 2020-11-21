@@ -7,11 +7,13 @@ import { MyProject } from './components/projects/myProject';
 import project1 from './assets/kprm.png';
 import project2 from './assets/eatEasy.png';
 import project3 from './assets/crwen-shop.png';
+import post1 from './assets/post-1.jpg';
+import post2 from './assets/post-2.jpg';
+import post3 from './assets/post-3.jpg';
+import post4 from './assets/post-4.jpg';
+
 import { PostInstagram } from './components/post/post';
-import  facebookLogo  from './assets/my-icons-collection/001-facebook.png'
-import  instagramLogo  from './assets/my-icons-collection/002-instagram.png'
-import  linkedinLogo  from './assets/my-icons-collection/003-linkedin.png'
-import { Link, BrowserRouter as Router } from 'react-router-dom'
+import {BrowserRouter as Router } from 'react-router-dom'
 import MenuLogo from './assets/svg/menu.svg'
 import { motion } from 'framer-motion'
 import myResume from './assets/resume.pdf'
@@ -51,8 +53,14 @@ const mySkills = [
     },
     {
         id : 6,
-        iconSkill : "https://img.icons8.com/color/480/000000/apollo.png",
-        nameSkill : "Apollo Client",
+        iconSkill : "https://camo.githubusercontent.com/ce4f1c6975e96a597d4d535edfa0c66846f7fb5f77e13a5b2d528109fd6fc98d/68747470733a2f2f6173736574732e76657263656c2e636f6d2f696d6167652f75706c6f61642f76313533383336313039312f7265706f7369746f726965732f6e6578742d6a732f6e6578742d6a732e706e67",
+        nameSkill : "Next JS",
+        colorCircle : "#F9DBD2"
+    },
+    {
+        id : 6,
+        iconSkill : "https://img.icons8.com/color/144/000000/graphql.png",
+        nameSkill : "GraphQL",
         colorCircle : "yellow"
     },
     {
@@ -99,22 +107,22 @@ const myProjects = [
 const myPosts = [
     {
         id : 1,
-        imagePost: 'https://instagram.ftun7-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/s750x750/120274930_3417296495031424_1248175127000185791_n.jpg?_nc_ht=instagram.ftun7-1.fna.fbcdn.net&_nc_cat=104&_nc_ohc=NucYkSeVAXEAX-HlPl6&_nc_tp=24&oh=e5bb9dccaf0d66ef7d0c307e9eefe982&oe=5FAF1B1D',
+        imagePost: post1,
         postLink: "https://www.instagram.com/p/CFwtF0whXYU/"
     },
     {
         id : 2,
-        imagePost: 'https://instagram.ftun7-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/s750x750/120029291_916050405586603_4399827925395623795_n.jpg?_nc_ht=instagram.ftun7-1.fna.fbcdn.net&_nc_cat=107&_nc_ohc=NesM7ZUFN6wAX9TBAeC&_nc_tp=24&oh=196d3548d27514e3b7efa039c392ed59&oe=5FAE4F26',
+        imagePost: post2,
         postLink: "https://www.instagram.com/p/CFhWO_1hB2o/"
     },
     {
         id : 3,
-        imagePost: 'https://instagram.ftun7-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/s640x640/119681717_649305712637920_6726186345570243009_n.jpg?_nc_ht=instagram.ftun7-1.fna.fbcdn.net&_nc_cat=104&_nc_ohc=WkTnqPu7NpUAX81T9Xx&_nc_tp=24&oh=c536473eaedd2f39e73d9ff34e9c6bfe&oe=5FAE6D1F',
+        imagePost: post3,
         postLink: "https://www.instagram.com/p/CFMnG2GBNia/"
     },
     {
         id : 4,
-        imagePost: 'https://instagram.ftun7-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/s640x640/118994102_740759216481429_1397600272369908969_n.jpg?_nc_ht=instagram.ftun7-1.fna.fbcdn.net&_nc_cat=109&_nc_ohc=P2HodwgLxFsAX-lKdDK&_nc_tp=24&oh=eb879f1f6ded9edc1f601bb362d4d5d4&oe=5FAF6867',
+        imagePost: post4,
         postLink: "https://www.instagram.com/p/CE6Ybhgh2wP/"
     }
 ]
@@ -152,7 +160,6 @@ function App() {
                                 About Me
                             </h3>
                             <div className='text'>
-                                I may not be the perfect developer out there, but I'm always looking for ways to improve myself.<pre />
                                 I 'm a front end developer and I genuinely  love what i do, I'm always trying to learn new thing and discover new technologies  And hey ! I forgot to mention that I'm a Business computing student!  <pre /> 
                                 I can work with different technologies like ReactJs, and others related to frontend development.
                             </div>
@@ -219,14 +226,17 @@ function App() {
                                     © MedIheb20
                                 </span>
                                 <div className='icons-social-media'>
-                                    <a target='_blank' rel='noopener noreferrer'  href='https://www.facebook.com/medIheb20/' >
-                                        <img alt='my-links' src={facebookLogo} />
-                                    </a>
-                                    <a target='_blank' rel='noopener noreferrer' href='https://www.instagram.com/mediheb20/'>
-                                        <img alt='my-links' src={instagramLogo} />
+                                    <a target='_blank' rel='noopener noreferrer'  href='https://github.com/medIheb20' >
+                                        <img alt='my-links' src= "https://img.icons8.com/doodle/48/000000/github--v1.png" />
                                     </a>
                                     <a target='_blank' rel='noopener noreferrer' href='https://www.linkedin.com/in/mediheb20/'>
-                                        <img alt='my-links' src={linkedinLogo} />
+                                        <img alt='my-links' src="https://img.icons8.com/dotty/80/000000/linkedin.png" />
+                                    </a>
+                                    <a target='_blank' rel='noopener noreferrer' href='https://www.instagram.com/mediheb20/'>
+                                        <img alt='my-links' src="https://img.icons8.com/doodle/48/000000/instagram-new.png" />
+                                    </a>
+                                    <a target='_blank' rel='noopener noreferrer' href='https://www.facebook.com/medIheb20/'>
+                                        <img alt='my-links' src="https://img.icons8.com/carbon-copy/100/000000/facebook-new.png" />
                                     </a>
                                 </div>
                             </div>

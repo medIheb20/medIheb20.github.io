@@ -16,10 +16,11 @@ $breakpoint-mobile: 650px;
         justify-content: center;
         align-items: center;
         margin-bottom: 52px;
+        overflow: hidden;
 
         .icon-skill{
-            width: 80%;
             height: 80%;
+            
         }
     }
     .name-skill{
