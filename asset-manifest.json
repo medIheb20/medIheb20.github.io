@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/medIheb20.github.io/static/css/main.476e46d2.chunk.css",
-    "main.js": "/medIheb20.github.io/static/js/main.5fcc309f.chunk.js",
-    "main.js.map": "/medIheb20.github.io/static/js/main.5fcc309f.chunk.js.map",
+    "main.css": "/medIheb20.github.io/static/css/main.83835abd.chunk.css",
+    "main.js": "/medIheb20.github.io/static/js/main.f5e45321.chunk.js",
+    "main.js.map": "/medIheb20.github.io/static/js/main.f5e45321.chunk.js.map",
     "runtime-main.js": "/medIheb20.github.io/static/js/runtime-main.7a9cbc94.js",
     "runtime-main.js.map": "/medIheb20.github.io/static/js/runtime-main.7a9cbc94.js.map",
-    "static/js/2.90f70754.chunk.js": "/medIheb20.github.io/static/js/2.90f70754.chunk.js",
-    "static/js/2.90f70754.chunk.js.map": "/medIheb20.github.io/static/js/2.90f70754.chunk.js.map",
+    "static/js/2.52b0213d.chunk.js": "/medIheb20.github.io/static/js/2.52b0213d.chunk.js",
+    "static/js/2.52b0213d.chunk.js.map": "/medIheb20.github.io/static/js/2.52b0213d.chunk.js.map",
     "index.html": "/medIheb20.github.io/index.html",
-    "precache-manifest.2d11523a215f233b1b4050baeb73a0c9.js": "/medIheb20.github.io/precache-manifest.2d11523a215f233b1b4050baeb73a0c9.js",
+    "precache-manifest.e803386f4988af09f222bd56e1b7cfd6.js": "/medIheb20.github.io/precache-manifest.e803386f4988af09f222bd56e1b7cfd6.js",
     "service-worker.js": "/medIheb20.github.io/service-worker.js",
-    "static/css/main.476e46d2.chunk.css.map": "/medIheb20.github.io/static/css/main.476e46d2.chunk.css.map",
-    "static/js/2.90f70754.chunk.js.LICENSE.txt": "/medIheb20.github.io/static/js/2.90f70754.chunk.js.LICENSE.txt",
-    "static/media/crwen-shop.png": "/medIheb20.github.io/static/media/crwen-shop.da0cfe49.png",
+    "static/css/main.83835abd.chunk.css.map": "/medIheb20.github.io/static/css/main.83835abd.chunk.css.map",
+    "static/js/2.52b0213d.chunk.js.LICENSE.txt": "/medIheb20.github.io/static/js/2.52b0213d.chunk.js.LICENSE.txt",
+    "static/media/Signup.png": "/medIheb20.github.io/static/media/Signup.32d5d29a.png",
+    "static/media/crwen-shop.jpg": "/medIheb20.github.io/static/media/crwen-shop.8ae8ef40.jpg",
     "static/media/cv.svg": "/medIheb20.github.io/static/media/cv.1604474b.svg",
-    "static/media/eatEasy.png": "/medIheb20.github.io/static/media/eatEasy.a5247663.png",
-    "static/media/kprm.png": "/medIheb20.github.io/static/media/kprm.147e4063.png",
-    "static/media/logo.svg": "/medIheb20.github.io/static/media/logo.ee7cd8ed.svg",
+    "static/media/eatEasy.jpg": "/medIheb20.github.io/static/media/eatEasy.a25a1140.jpg",
+    "static/media/kprm.jpg": "/medIheb20.github.io/static/media/kprm.f5dc3e4e.jpg",
     "static/media/menu.svg": "/medIheb20.github.io/static/media/menu.922fdc03.svg",
     "static/media/App.scss": "/medIheb20.github.io/static/media/my-image.d4ee676f.jpg",
     "static/media/post-1.jpg": "/medIheb20.github.io/static/media/post-1.f7bf5b17.jpg",
@@ -29,8 +29,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.7a9cbc94.js",
-    "static/js/2.90f70754.chunk.js",
-    "static/css/main.476e46d2.chunk.css",
-    "static/js/main.5fcc309f.chunk.js"
+    "static/js/2.52b0213d.chunk.js",
+    "static/css/main.83835abd.chunk.css",
+    "static/js/main.f5e45321.chunk.js"
   ]
 }
