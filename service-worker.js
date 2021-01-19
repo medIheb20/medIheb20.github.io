@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/medIheb20.github.io/precache-manifest.cf12697d54766ed2fbf0d9bab99c62d9.js"
+  "/medIheb20.github.io/precache-manifest.fb69988114523c924b0fb9ac64a1ff90.js"
 );
 
 self.addEventListener('message', (event) => {
