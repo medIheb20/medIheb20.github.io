@@ -188,6 +188,7 @@ body{
   background-color: #ffbbc6;
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-items: center;
 
   .my-projects{
@@ -209,8 +210,8 @@ body{
     gap: 150px;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 0 100px;
-
+    position: relative;
+    width: 95%;
   }
 
 }
