@@ -16,7 +16,7 @@ export const Navbar = ({setWithMenu, withMenu}) => {
             }
             return  setWithScroll(false);
         })
-        if (withMenu == true){
+        if (withMenu === true){
             setWithScroll(true);
        }
     }, [withMenu]);

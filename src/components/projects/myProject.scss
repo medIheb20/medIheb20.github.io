@@ -11,24 +11,26 @@ $breakpoint-mobile: 650px;
     background-color: white;
     box-shadow: 10px 10px 34px -14px rgba(0,0,0,0.75);
     padding-bottom: 20px;
+    
 
     .image-background{
-        border-radius: 20px;
         background-repeat: no-repeat;
         background-position: top;
         background-size: cover;
         cursor: pointer;
         width: 100%;
+        border-radius: 20px 20px 0 0;
         height: 200px;
     }
 
     .text-project{
         display: flex;
         gap: 10px;
-        padding: 20px;
+        padding: 20px 0 5px 0;
         flex-direction: column;
         position: relative;
-        min-height: 280px;
+        justify-content: space-between;
+        min-height: 340px;
 
         .title-project{
             font-size: 28px;
@@ -39,13 +41,14 @@ $breakpoint-mobile: 650px;
             align-self: center;
         }
 
-        .text{
+        .project-description{
             font-family: 'Montserrat', sans-serif;
             font-weight: 300;
             font-style: normal;
             font-size: 18px;
-            text-align: center;
             color: #1d118d;
+            display: flex;
+            flex-direction: column;
             margin-bottom: 5px;
         }
         .tech-used{
@@ -59,8 +62,7 @@ $breakpoint-mobile: 650px;
         }
         .button-project-link{
             all: unset;
-            width: 95%;
-            align-self: center;
+            width: 100%;
             height: 40px;
             border-radius: 300px;
             background-color: #ffbbc6;
@@ -79,8 +81,7 @@ $breakpoint-mobile: 650px;
         }
         .project-link{
             width: 95%;
-            position: absolute;
-            bottom: 0;
+            align-self: center;
             text-decoration: none;
         }
     }

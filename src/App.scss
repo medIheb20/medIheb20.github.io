@@ -204,12 +204,13 @@ body{
   }
   .projects-wrapper{
     margin-top: 80px;
-    display: inline-flex;
     margin-bottom: 100px;
-
-    gap: 200px;
+    display: flex;
+    gap: 150px;
     flex-wrap: wrap;
     justify-content: center;
+    padding: 0 100px;
+
   }
 
 }

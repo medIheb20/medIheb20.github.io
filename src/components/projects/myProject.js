@@ -18,9 +18,11 @@ export const MyProject = ({image, title,text, technolgieUsed, projectLink}) => {
                 <span className='title-project'>
                     {title}
                 </span>
-                <span className='text'>
-                    {text}
-                </span>
+                <ul className='project-description'>
+                    {text.map(item => 
+                        <li>{item}</li>    
+                    )}
+                </ul>
                 <span className='tech-used'>
                     {technolgieUsed}
                 </span>
