@@ -3,7 +3,6 @@ import './App.scss';
 import { Navbar } from './components/navBar/navbar';
 import { SkillsIcon } from './components/skills';
 import { MyProject } from './components/projects/myProject';
-import MetaTags from 'react-meta-tags';
 
 
 import { PostInstagram } from './components/post/post';
@@ -25,12 +24,6 @@ function App() {
 
     return (
       <Router>
-        <MetaTags>
-            <title>Med Iheb Hichri</title>
-            <meta id="meta-description" name="description" content="I am Mohamed Iheb Hichri , I am front end developer and I love what I do and every day enjoy the learning process and I work for a lot of technologies like ReactJs and a lot of technologies of the front end I am a Business Computing student and with my school, I try to learn new things about programming every day without stopping " />
-            <meta id="og-title" property="og:title" content="Mohamed Iheb Hichri" />
-            <meta id="og-image" property="og:image" content="./assets/banelCover.png" />
-        </MetaTags>
         <div className='body-container' >
             <Navbar 
                 withMenu={withMenu}
