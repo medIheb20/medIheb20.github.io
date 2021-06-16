@@ -2,6 +2,7 @@ import project1 from '../assets/kprm.jpg';
 import project2 from '../assets/eatEasy.jpg';
 import project3 from '../assets/crwen-shop.jpg';
 import project4 from '../assets/Signup.png';
+import project5 from '../assets/project5.png';
 
 
 export const myProjects = [
@@ -19,7 +20,20 @@ export const myProjects = [
         projectLink : 'https://www.hirros.com/'
     },
     {
-        id : 2,
+      id : 2,
+      image : project5,
+      title : 'TSCL',
+      text : [
+          'A Static Website',
+          'Using NextJS',
+          'Using Sass for the design',
+          'Responsive Website'
+      ],        
+      technolgieUsed: 'NextJs, Sass',
+      projectLink : 'https://tscl.vercel.app/'
+  },
+    {
+        id : 3,
         image : project2,
         title : 'Eat Easy App',
         text : [
@@ -32,7 +46,7 @@ export const myProjects = [
         projectLink : 'https://github.com/medIheb20/EatEasy-Delivery-Food'
     },
     {
-        id : 3,
+        id : 4,
         image : project1,
         title : 'Kprm Company',
         text : [
@@ -44,7 +58,7 @@ export const myProjects = [
         projectLink : 'https://kprm.co.za/'
     },
     {
-        id : 4,
+        id : 5,
         image : project3,
         title : 'Crwen Clothes Shop',
         text : [
